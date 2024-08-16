@@ -1,0 +1,48 @@
+.video-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: center;
+	align-items: start;
+	gap: 10px;
+	margin-top: 2rem;
+}
+
+.video-preview {
+	position: relative;
+}
+
+.video-preview-item {
+	position: relative;
+}
+
+.video-preview-item video {
+	width: 100%;
+	max-height: 300px;
+	border: 2px solid #fff;
+	border-radius: 10px;
+}
+
+.username {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-size: 14px;
+}
+
+.controls {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	margin-top: 2rem;
+}
+
+.call-button {
+	display: flex;
+	justify-content: center;
+	margin-top: 1rem;
+}
+
