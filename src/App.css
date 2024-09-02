@@ -8,11 +8,11 @@
 }
 
 .video-preview {
-	position: relative;
+	position: absolute;
 }
 
 .video-preview-item {
-	position: relative;
+	position: absolute;
 }
 
 .video-preview-item video {
@@ -33,6 +33,11 @@
 	font-size: 14px;
 }
 
+/* Hide the local video when it's not needed */
+.local-video-hidden {
+	display: none;
+}
+
 .controls {
 	display: flex;
 	justify-content: center;
@@ -46,3 +51,41 @@
 	margin-top: 1rem;
 }
 
+
+.incoming-call-dialog {
+    text-align: center;
+    padding: 20px;
+}
+
+.incoming-call-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.incoming-call-title svg {
+    margin-right: 10px;
+}
+
+.caller-info {
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin: 20px 0;
+}
+
+.incoming-call-actions {
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.answer-button {
+    background-color: #4caf50; /* Green */
+    color: white;
+}
+
+.decline-button {
+    background-color: #f44336; /* Red */
+    color: white;
+}
